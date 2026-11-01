@@ -1,22 +1,25 @@
-
-# Compiled Java files
+# Java compiled files
 *.class
-bin/
-build/
 target/
+bin/
 
-# Eclipse workspace metadata
+# Eclipse
 .metadata/
 .settings/
+.project
+.classpath
+
+# IntelliJ
+.idea/
+*.iml
+
+# Environment and secrets
+.env
+*.properties
 
 # Logs
 *.log
 
-# Local environment and secrets
-.env
-.env.*
-!.env.example
-
-# Operating system files
+# OS files
 .DS_Store
 Thumbs.db
